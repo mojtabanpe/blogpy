@@ -11,3 +11,7 @@ blog/migrations/
 #database
 db.sqlite3
 
+
+#other
+blog/__pycache__/
+files/
