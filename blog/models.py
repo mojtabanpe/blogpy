@@ -23,6 +23,7 @@ class UserProfile(models.Model):
     def __str__(self):
         return self.user.first_name
 
+
 class Article(models.Model):
     title = models.CharField(max_length=128, blank=False, null=False)
     cover = models.FileField(upload_to="files/article_cover/", blank=False, null=False, validators=[validate_file_extension])
@@ -33,6 +34,7 @@ class Article(models.Model):
 
     def __str__(self):
         return self.title
+
 
 class Category(models.Model):
     title = models.CharField(max_length=128, blank=False, null=False)

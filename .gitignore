@@ -5,6 +5,7 @@
 #virtual env
 v1/
 
+
 #migration
 blog/migrations/
 
